@@ -1,4 +1,16 @@
-{
+
+  {
+  "name": "sba-14",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "bcrypt": "^6.0.0",
     "dotenv": "^17.3.1",
@@ -7,5 +19,7 @@
     "mongoose": "^9.3.3",
     "passport": "^0.7.0",
     "passport-github2": "^0.1.12"
-  }
+  },
+  "type" : "module"
 }
+
